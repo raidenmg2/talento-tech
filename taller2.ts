@@ -20,8 +20,9 @@ let persona: object = {
  * 
  * 
  */
-    let nombre1:string = "Luis";
-    console.log(`${nombre1}`);
+    type mascotas = 'perro'|'gato'|'pez';
+    let mascota1 = 'perro';
+    console.log('La mascota elegida es un :',`${mascota1}`);
 
  /**Parte 2: Condicionales
     Estructuras Condicionales:
